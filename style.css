@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+nav p{
+    font-size: 40px;
+    margin-left: 2%;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+main{
+    text-align: center;
+}
+
+#codes{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+main div button{
+    height: 80px;
+    width: 200px;
+    margin: 2% 2% 0 0;
+    border-radius: 200px;
+    border: 0;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result{
+    margin: 8px 0px;
+    padding: 10%;
+    border-top: 2px solid black;
+    text-align: center;
+
+
+}
